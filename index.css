@@ -160,7 +160,7 @@ h1 {
 }
 
 .acc-img {
-    width: 90%;
+    width: 80%;
     height: auto;
 }
 
@@ -176,7 +176,7 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 90%;
     height: auto;
     border: 3px solid #cdb4be;
   }
@@ -188,6 +188,10 @@ h1 {
 
 .carousel-indicators {
     filter: invert(100%);
+}
+
+.emojis {
+    font-size: 2.5vw;
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1500px) {
@@ -214,40 +218,40 @@ h1 {
     }
 }
 
-@media only screen and (min-width: 640px) and (max-width: 870px) {
-    main {
-        margin: 0 auto;
-        padding: 30px 30px 0 30px;
-        background-color: white;
-        min-height: 100vh;
+@media only screen and (max-width: 1000px) {
+    .project-name {
+        font-size: 30px;
+    }
+
+    .sub-section {
+        padding-left: 10vw; 
+        padding-right: 10vw; 
+        padding-top: 8vh;
+        padding-bottom: 8vh;
+    }
+
+    .intro {
+        padding-left: 10vw; 
+        padding-right: 10vw; 
+    }
+
+    .emojis {
+        font-size: 20px;
+    }
+
+    .fa {
+        font-size: 20px !important;
+    }
+
+    .acc-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .lofi-content {
+        padding-left: 5vw;
+        padding-right: 5vw;
     }
 }
 
-@media only screen and (min-width: 420px) and (max-width: 640px) {
-    main {
-        margin: 0 auto;
-        padding: 30px 30px 0 30px;
-        background-color: white;
-        min-height: 100vh;
-    }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 420px) {
-    main {
-        margin: 0 auto;
-        padding: 30px 20px 0 20px;
-        background-color: white;
-        min-height: 100vh;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    main {
-        font-family: "Book Antiqua", Arial, Helvetica, sans-serif;
-        margin: 0 auto;
-        padding: 30px 20px 0 20px;
-        background-color: white;
-        min-height: 100vh;
-    }
-}
 
